@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "EI Messiri";
+    font-weight: 400;
+    font-style: normal;
+    src: local("EI Messiri"),
+        url("fonts/AmaticSC-Regular.woff2") format("woff2"),
+        url("fonts/AmaticSC-Regular.woff") format("woff");
+}
+
+.body {
+    font-family: "EI Messiri", "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    max-width: 100%;
+    color: #000000;
+    background-color: rgb(206, 170, 240);
+}
+
+.title {
+    font-size: 32px;
+    background-color: blueviolet;
+}
+
+.text {
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+}
+
+.speech {
+    background-color: gold;
+}
+
+img {
+    margin-bottom: 32px;
+}
+
+.link {
+    font-family: "EI Messiri", "Arial", sans-serif;
+    color: blueviolet;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 700;
+    text-decoration-line: none;
+    background-color: gold;
+}
